@@ -1,6 +1,6 @@
 # Representation Engineering (RepE): LLM Control via Hidden State Manipulation
 
-This repository contains a solo-developed implementation and extension of **Representation Engineering (RepE)**, as proposed by [Zou et al. (2023)](https://arxiv.org/abs/2310.01405). This project moves beyond "black-box" prompt engineering by identifying and manipulating the internal cognitive states of Large Language Models (LLMs) through their high-dimensional hidden layer activations.
+This repository contains an implementation and extension of **Representation Engineering (RepE)**, as proposed by [Zou et al. (2023)](https://arxiv.org/abs/2310.01405). This project moves beyond "black-box" prompt engineering by identifying and manipulating the internal cognitive states of Large Language Models (LLMs) through their high-dimensional hidden layer activations.
 
 ## 🚀 Project Overview
 The objective was to extract "concept vectors" (directions in activation space) that represent abstract concepts like emotions and political leanings. By isolating these vectors, I implemented a mechanism to "read" a model's internal state and "steer" its output mechanistically during inference.
